@@ -1,0 +1,8 @@
+c:\users\администратор\documents\visual studio 2012\Projects\trpo_lab_1_2\trpo_lab_1_2\obj\Debug\trpo_lab_1_2.csprojResolveAssemblyReference.cache
+c:\users\администратор\documents\visual studio 2012\Projects\trpo_lab_1_2\trpo_lab_1_2\obj\Debug\trpo_lab_1_2.Properties.Resources.resources
+c:\users\администратор\documents\visual studio 2012\Projects\trpo_lab_1_2\trpo_lab_1_2\obj\Debug\trpo_lab_1_2.csproj.GenerateResource.Cache
+c:\users\администратор\documents\visual studio 2012\Projects\trpo_lab_1_2\trpo_lab_1_2\obj\Debug\trpo_lab_1_2.frmMain.resources
+c:\users\администратор\documents\visual studio 2012\Projects\trpo_lab_1_2\trpo_lab_1_2\bin\Debug\trpo_lab_1_2.exe
+c:\users\администратор\documents\visual studio 2012\Projects\trpo_lab_1_2\trpo_lab_1_2\bin\Debug\trpo_lab_1_2.pdb
+c:\users\администратор\documents\visual studio 2012\Projects\trpo_lab_1_2\trpo_lab_1_2\obj\Debug\trpo_lab_1_2.exe
+c:\users\администратор\documents\visual studio 2012\Projects\trpo_lab_1_2\trpo_lab_1_2\obj\Debug\trpo_lab_1_2.pdb
