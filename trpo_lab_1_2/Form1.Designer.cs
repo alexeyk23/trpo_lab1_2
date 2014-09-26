@@ -60,6 +60,7 @@
             this.txbxAnswer.Multiline = true;
             this.txbxAnswer.Name = "txbxAnswer";
             this.txbxAnswer.ReadOnly = true;
+            this.txbxAnswer.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txbxAnswer.Size = new System.Drawing.Size(347, 232);
             this.txbxAnswer.TabIndex = 2;
             // 
