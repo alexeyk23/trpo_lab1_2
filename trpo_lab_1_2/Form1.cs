@@ -60,9 +60,11 @@ namespace trpo_lab_1_2
                                else
                                    if (ch == '=')
                                        return 6;
+                                        
                                 
            return 7;
         }
+        //табличный автомат
         State[,] tableAutomat = new State[,]
         {
             {State.Integer,State.Identificate,State.Any,State.Comparing,State.Arifmetic,State.Any,State.Equals,State.Any},//Begin
@@ -83,6 +85,7 @@ namespace trpo_lab_1_2
             int i = 0;
             while (i<s.Length)
             {
+                //откуда копировать лексему
                 int from = i;
                 curr = tableAutomat[(int)pred, indexChar(s[i])];
                 do
@@ -97,8 +100,12 @@ namespace trpo_lab_1_2
                                      
                 }
                 while (curr == pred || curr == State.Real);
-
-                answer.Add(s.Substring(from, i - from) + " " + name[(int)pred]);
+                //если служебное слово
+                if(pred==State.Identificate && setOfReservedWords.Contains(s.Substring(from,i-from)))                  
+                        answer.Add(s.Substring(from, i - from) + "\t служебное слово");
+                else
+                        answer.Add(s.Substring(from, i - from) + "\t " + name[(int)pred]);
+                
                 pred = curr;
             }
         }
